@@ -8,8 +8,17 @@ const observer=new IntersectionObserver((entries)=>{
 	})
 })
 
+function setHeightForNavBg(){
+	nav_height=document.querySelectorAll('.menu-container')[0].getBoundingClientRect().height
+	document.getElementById('nav-background')
+		.setAttribute("style","height:"+nav_height+"px");
+}
+
 window.onload=()=>{
 	hiddenElements=document.querySelectorAll(".animated-hidden")
 	hiddenElements.forEach((el)=>observer.observe(el))
+	setHeightForNavBg()
 }
+
+window.addEventListener("resize",setHeightForNavBg)
 console.log("Hi")
