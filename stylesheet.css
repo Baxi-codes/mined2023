@@ -8,6 +8,9 @@ body {
 .container {
 	padding: 0 3rem;
 }
+a {
+	color: white;
+}
 
 .menu-container {
 	position: fixed;
@@ -20,6 +23,7 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 	box-sizing: border-box;
+	backdrop-filter: blur(5px);
 }
 
 .menu-logo {
@@ -309,18 +313,19 @@ footer {
 
 	.menu-container {
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		gap: 0;
 	}
 	.menu {
 		flex-direction: column;
+		justify-content: space-between;
 	}
 	.menu ul {
 		margin: 10px 0;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 	.menu ul li {
-		padding: 5px 5px;
+		padding: 0px 5px;
 	}
 }
