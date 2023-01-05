@@ -6,7 +6,8 @@ body {
 	font-family: "Inter", sans-serif;
 }
 .container {
-	padding: 0 3rem;
+	padding: 0 7rem;
+	margin: auto;
 }
 a {
 	color: white;
@@ -221,7 +222,7 @@ nav {
 	justify-content: center;
 }
 .organizer .img img {
-	width: 250px;
+	width: 300px;
 	aspect-ratio: auto;
 	min-width: 100px;
 }
@@ -257,9 +258,9 @@ nav {
 	padding: 0;
 	margin: 0;
 }
-.faq > p {
+.faq p {
 	margin-top: 0.4rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 3rem;
 	color: #cdcdcd;
 	line-height: 1.5;
 }
