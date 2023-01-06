@@ -12,4 +12,5 @@ window.onload=()=>{
 	hiddenElements=document.querySelectorAll(".animated-hidden")
 	hiddenElements.forEach((el)=>observer.observe(el))
 }
+
 console.log("Hi")

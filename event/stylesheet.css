@@ -277,6 +277,7 @@ body {
 	-webkit-user-select: none;
 	user-select: none;
 	box-sizing: border-box;
+	backdrop-filter: blur(5px);
 }
 
 .menu-logo {
@@ -473,10 +474,6 @@ body {
 	.organizer p {
 		width: 60%;
 	}
-}
-
-nav {
-	overflow-y: hidden;
 }
 
 .menu-container .icon {
